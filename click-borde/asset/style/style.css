@@ -1,0 +1,15 @@
+body{
+    background-color: #f8f8f8;
+}
+section{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px ;
+}
+
+#image_sadcat.clicked {
+    border: 2px solid red;
+    border-radius: 153px;
+  }
+  /* si en el js lo declaramos como un add, este va a agregar la clase a el id :)

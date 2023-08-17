@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c0c0c0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.select{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    
+
+}
+#parr{
+    color: black;
+}
+select{
+
+    border: none;
+    height: 6vh;
+    width: 5vw;
+    border-radius: 5px;
+
+}
+button{
+    background-color: #be4e9b;
+    border: none;
+    color: #f8f8f8;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+button:hover{
+    box-shadow: 2px 2px 2px 2px #838383;
+}
